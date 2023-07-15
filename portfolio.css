@@ -115,7 +115,7 @@ main {
   margin-left: 10px;
 }
 .info-title {
-  color:#757575;
+  color: #757575;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
@@ -126,4 +126,66 @@ main {
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
+}
+
+/* what i do section */
+.what-i-do {
+}
+.what-i-do-description {
+  margin: 30px 210px;
+}
+.skills {
+  display: flex;
+  gap: 24px;
+  margin: 10px 150px;
+}
+.skill {
+  padding: 50px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title {
+}
+.skill-description {
+  color: #757575;
+}
+/* resume section style*/
+.resume {
+}
+.resume-cols {
+  display: flex;
+  gap: 70px;
+  margin: 0px 200px;
+}
+.col-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 100px;
+  max-width: 500px;
+}
+.col-item {
+}
+.item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.instu {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.item-details {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+hr {
+  height: 1px;
+  background: #d1d1d1;
+}
+.btn-resume {
 }
