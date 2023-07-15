@@ -11,6 +11,22 @@
   font-weight: 700;
   padding: 15px 35px;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  /* width: 825px; */
+  /* height: 120px; */
+}
+
 /* nav style */
 nav {
   display: flex;
@@ -18,13 +34,13 @@ nav {
   align-items: center;
   margin: 0px 150px;
 }
-.color-text{
+.color-text {
   color: #fd6e0a;
 }
 .nav-title {
   color: #181818;
   font-size: 45px;
-  font-weight:800;
+  font-weight: 800;
 }
 nav > ul {
   display: flex;
@@ -40,14 +56,74 @@ nav a {
 }
 
 /* banner style */
-.header{
-    background-color: #fff8f3;
+.header {
+  background-color: #fff8f3;
+  background-image: url("images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.profile-picture{
-    width:500px;
+.banner-content {
+  max-width: 585px;
+}
+.profile-picture {
+  width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+/* about me section style */
+main {
+  /* max-width: 1140px; */
+  margin: 0px auto;
+}
+.about-me {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 75px 100px;
+  margin: 100px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 10px;
+}
+.info-title {
+  color:#757575;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.info-description {
+  color: #474747;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
 }
