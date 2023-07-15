@@ -188,4 +188,35 @@ hr {
   background: #d1d1d1;
 }
 .btn-resume {
+  text-align: center;
+}
+
+/* footer section */
+.footer {
+  background: #fff8f3;
+  height: 500px;
+  display: flex;
+  padding: 100px 200px;
+  grid-area: 100px;
+}
+.footer-col{
+    width: 50%;
+}
+.footer-description {
+  color: #474747;
+  font-size: 15px;
+  font-weight: 400;
+}
+.social-links{
+    display: flex;
+    gap: 25px;
+}
+.message input[type="text"],.message input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
 }
